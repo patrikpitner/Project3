@@ -1,4 +1,5 @@
 # Project3 Scraper výsledků parlamentních voleb 2017
+Pro macOS
 
 Tento skript automaticky stáhne výsledky parlamentních voleb České republiky za rok 2017 pro konkrétní územní celek z oficiálních stránek www.volby.cz.
 
@@ -20,7 +21,7 @@ Název výstupního CSV souboru
 
 Spuštění skriptu:
 
-python scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
 
 Výsledkem bude CSV soubor se strukturou:
 
