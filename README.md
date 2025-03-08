@@ -20,7 +20,7 @@ Název výstupního CSV souboru
 
 *Spuštění skriptu:*
 
-python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vystup.csv"
 
 Výsledkem bude CSV soubor se strukturou:
 
@@ -38,7 +38,7 @@ Jednotlivé sloupce kandidujících stran obsahující absolutní počty hlasů
 
 *Ukázka použití*
 
-python scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vystup.csv"
 
 Výsledkem bude soubor vysledky_benesov.csv s kompletními výsledky pro Benešov.
 
@@ -71,7 +71,7 @@ Název výstupního CSV souboru
 
 *Příklad spuštění:*
 
-python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vystup.csv"
 
 Výsledná CSV tabulka obsahuje:
 
@@ -89,7 +89,7 @@ Jednotlivé sloupce kandidujících stran obsahující absolutní počty hlasů 
 
 *Ukázka použití*
 
-python scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vysledky_benesov.csv"
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "vystup.csv"
 
 Výsledkem bude soubor vysledky_benesov.csv s kompletními výsledky pro Benešov.
 
