@@ -66,7 +66,7 @@ def uloz_csv(url, vystup):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Použití: python Untitled-1.py <URL> <vystup.csv>")
+        print("Použití: python main.py <URL> <vystup.csv>")
         sys.exit(1)
     url = sys.argv[1]
     vystupni_soubor = sys.argv[2]
