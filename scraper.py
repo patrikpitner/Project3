@@ -1,8 +1,8 @@
 """
 projekt_3.py: třetí projekt do Engeto Online Python Akademie"
 
-author: Patrik Pitner"
-email: patrikpitner@seznam.cz"
+author: Patrik Pitner
+email: patrikpitner@seznam.cz
 """
 import sys
 import requests
