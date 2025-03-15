@@ -1,3 +1,27 @@
-beautifulsoup4 = 4.12.3
-pandas = 2.2.1
-requests = 2.31.0
+# Požadované knihovny pro Universal Voting Scraper
+
+Tento soubor obsahuje seznam knihoven potřebných pro běh projektu. Používá formát kompatibilní s Binderem a jinými prostředími.
+
+## Instalace
+
+Pro instalaci všech závislostí spusť:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Požadované knihovny
+
+```
+# Základní knihovny pro scraping a zpracování dat
+requests
+pandas
+beautifulsoup4
+```
+
+## Použití v prostředí Binder
+Pokud chceš projekt spustit v cloudovém prostředí Binder, ujisti se, že tento soubor je umístěn v kořenové složce repozitáře.
+
+---
+
+**Podpora**: Pokud máš dotazy nebo narazíš na problém, neváhej se ozvat!
