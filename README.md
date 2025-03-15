@@ -123,4 +123,4 @@ deactivate
 
 ## Kontakt
 
-Pokud narazíš na problém nebo máš dotaz, neváhej se ozvat! 😊
+Pokud narazíš na problém nebo máš dotaz, neváhej se ozvat!
