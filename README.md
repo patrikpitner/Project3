@@ -4,7 +4,7 @@ Tento skript umožňuje automatické stahování a zpracování volebních dat z
 
 ---
 
-## 📌 Požadavky
+## Požadavky
 
 Před spuštěním skriptu se ujisti, že máš nainstalované následující knihovny:
 
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Spuštění skriptu
+## Spuštění skriptu
 
 ### **Na Windows:**
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Výstupní CSV soubor
+## Výstupní CSV soubor
 
 CSV soubor obsahuje následující sloupce:
 
@@ -63,10 +63,10 @@ CSV soubor obsahuje následující sloupce:
 
 ---
 
-## ❌ Možné chyby a jejich řešení
+## Možné chyby a jejich řešení
 
-### ❗ Chyba: "No such file or directory: 'main.py'"
-✅ **Ujisti se, že jsi ve správné složce:**
+### Chyba: "No such file or directory: 'main.py'"
+**Ujisti se, že jsi ve správné složce:**
 
 #### **Na Windows:**
 ```powershell
@@ -88,16 +88,16 @@ Get-ChildItem  # Windows
 
 ---
 
-### ❗ Chyba: "ModuleNotFoundError: No module named 'requests'"
-✅ **Nainstaluj chybějící knihovny:**
+### Chyba: "ModuleNotFoundError: No module named 'requests'"
+**Nainstaluj chybějící knihovny:**
 ```bash
 pip install requests pandas beautifulsoup4
 ```
 
 ---
 
-### ❗ Chyba: "Can't open file '\*\*\*\*'"
-✅ **Ujisti se, že voláš skript správně:**
+### Chyba: "Can't open file '\*\*\*\*'"
+**Ujisti se, že voláš skript správně:**
 ```bash
 python main.py "URL" "vystup.csv"   # Windows
 python3 main.py "URL" "vystup.csv"  # macOS/Linux
@@ -105,7 +105,7 @@ python3 main.py "URL" "vystup.csv"  # macOS/Linux
 
 ---
 
-## 🔚 Ukončení virtuálního prostředí
+## Ukončení virtuálního prostředí
 
 Po dokončení práce doporučujeme deaktivovat virtuální prostředí:
 
