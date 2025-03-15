@@ -6,10 +6,10 @@ Tento skript umožňuje automatické stahování a zpracování volebních dat z
 
 ## Požadavky
 
-Před spuštěním skriptu se ujisti, že máš nainstalované následující knihovny:
+Před spuštěním skriptu se ujisti, že máš nainstalované požadované knihovny:
 
 ```bash
-pip install requests pandas beautifulsoup4
+pip install -r requirements.txt
 ```
 
 Doporučujeme používat **virtuální prostředí**:
@@ -17,7 +17,6 @@ Doporučujeme používat **virtuální prostředí**:
 ```bash
 python -m venv venv  # Windows
 source venv/bin/activate  # macOS/Linux
-pip install -r requirements.txt
 ```
 
 ---
