@@ -59,7 +59,14 @@ CSV soubor obsahuje následující sloupce:
 - `obalky` – Počet odevzdaných obálek  
 - `platne` – Počet platných hlasů  
 - `+ jednotlivé strany a jejich hlasy`
+  
+Ukázka výstupu CSV:
 
+```
+kod,nazev,registrovani,obalky,platne,ANO,ODS,Piráti
+1101,Obec A,1000,800,780,150,200,430
+1102,Obec B,1500,1200,1150,200,250,700
+```
 ---
 
 ## Možné chyby a jejich řešení
